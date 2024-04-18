@@ -1,0 +1,14 @@
+.bookWidth {
+    width: calc((100% - 2rem)/3);
+}
+
+@media screen and (max-width: 768px) {
+    .bookWidth {
+        width: calc((100% - 2rem)/2);
+    }
+}
+@media screen and (max-width: 568px) {
+    .bookWidth {
+        width: calc((100% - 2rem)/1);
+    }
+}
